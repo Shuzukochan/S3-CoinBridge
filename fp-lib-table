@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "S3-CoinBridge")(type "KiCad")(uri "${KIPRJMOD}/S3-CoinBridge.pretty")(options "")(descr "Project local footprints"))
+)
