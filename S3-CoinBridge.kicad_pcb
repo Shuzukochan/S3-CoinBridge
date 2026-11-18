@@ -36849,8 +36849,8 @@
 		)
 	)
 	(gr_rect
-		(start 36 36)
-		(end 54.6 58)
+		(start 36 38)
+		(end 54.6 58.5)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -36858,17 +36858,6 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "1ac350d3-e4fb-48e2-ba15-50bb12c24a29")
-	)
-	(gr_rect
-		(start 36.5 7.5)
-		(end 39.5 10.5)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "83785c70-18f2-47a6-9692-980945a82a61")
 	)
 	(gr_line
 		(start 37.5 2.8)
@@ -36890,20 +36879,9 @@
 		(layer "F.SilkS")
 		(uuid "3126f23e-9258-4afd-bd74-b93154f6261e")
 	)
-	(gr_circle
-		(center 38 9)
-		(end 38.6 9)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "cfcf441b-890c-4c3e-a8e7-2577e2ca0d36")
-	)
 	(gr_rect
-		(start 41.5 46.5)
-		(end 49.1 51.5)
+		(start 41.5 48.5)
+		(end 49.1 53.5)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -36932,17 +36910,6 @@
 		(layer "F.SilkS")
 		(uuid "ae5c2b28-964b-43ab-b3df-87600eabde18")
 	)
-	(gr_rect
-		(start 44.3 7.8)
-		(end 46.3 9.8)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "22d59a3e-0c54-4d01-8125-b12fe4879044")
-	)
 	(gr_line
 		(start 47.1 2.8)
 		(end 53.1 2.8)
@@ -36962,28 +36929,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "e98a13ea-9370-4e13-a147-e6501c5b7350")
-	)
-	(gr_rect
-		(start 51.1 7.5)
-		(end 54.1 10.5)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "d90de495-1cbf-4676-aaa8-6b706399fe42")
-	)
-	(gr_circle
-		(center 52.6 9)
-		(end 53.2 9)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.SilkS")
-		(uuid "5f288e82-7e40-4887-8898-8415856b5a3d")
 	)
 	(gr_line
 		(start 53.1 2.8)
@@ -37133,17 +37078,6 @@
 			)
 		)
 	)
-	(gr_text "RST"
-		(at 38 11.4 0)
-		(layer "F.SilkS")
-		(uuid "391eed78-ef05-4a23-9933-96e5c1da640a")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
 	(gr_text "USB"
 		(at 40.5 6.3 0)
 		(layer "F.SilkS")
@@ -37155,54 +37089,10 @@
 			)
 		)
 	)
-	(gr_text "◀ 3V3"
-		(at 41 4.33 0)
-		(layer "F.SilkS")
-		(uuid "ab06c52a-e37f-40ee-819b-ffd3cff7231b")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "◀ IO4"
-		(at 41 11.95 0)
-		(layer "F.SilkS")
-		(uuid "a82bce93-06ff-4b93-bfb5-5d1080be25d2")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "RGB"
-		(at 45.3 11.2 0)
-		(layer "F.SilkS")
-		(uuid "978b3d6b-9711-4cbc-80eb-05858717d5d9")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
 	(gr_text "2.4GHz Wi-Fi + BLE 5.0"
-		(at 45.3 53.8 0)
+		(at 45.3 55.8 0)
 		(layer "F.SilkS")
 		(uuid "07e801dd-ac07-4e63-9b6c-dbeb2deb03c5")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "5V ▶"
-		(at 50 4.33 0)
-		(layer "F.SilkS")
-		(uuid "5d4ea369-c969-463e-ab5c-3854bf540508")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -37221,30 +37111,8 @@
 			)
 		)
 	)
-	(gr_text "BOOT"
-		(at 52.6 11.4 0)
-		(layer "F.SilkS")
-		(uuid "222e4c33-853b-495e-b3b9-1fe8f7f6bb1d")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.15)
-			)
-		)
-	)
-	(gr_text "▲ THIS SIDE UP ▲"
-		(at 45.3 56.3 0)
-		(layer "F.SilkS")
-		(uuid "3ea3493d-942a-46f9-8234-13970d052ada")
-		(effects
-			(font
-				(size 0.85 0.85)
-				(thickness 0.15)
-			)
-		)
-	)
 	(gr_text "CHIP"
-		(at 45.3 49 0)
+		(at 45.3 51 0)
 		(layer "F.SilkS")
 		(uuid "45e7de4d-ad2c-4c52-99d0-fde5500f839d")
 		(effects
@@ -37310,7 +37178,7 @@
 		)
 	)
 	(gr_text "WROOM-1"
-		(at 45.3 44 0)
+		(at 45.3 46 0)
 		(layer "F.SilkS")
 		(uuid "e1446097-e3f9-4aa2-8cd2-c2ee423d8653")
 		(effects
@@ -37321,7 +37189,7 @@
 		)
 	)
 	(gr_text "ESP32-S3"
-		(at 45.3 40 0)
+		(at 45.3 42 0)
 		(layer "F.SilkS")
 		(uuid "1e32e215-bf7a-4d5e-89b1-35b43bf8a34b")
 		(effects
