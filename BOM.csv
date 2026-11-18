@@ -1,0 +1,14 @@
+﻿STT,Mã linh kiện (Ref),Tên linh kiện & Thông số,Quy cách đóng gói (Package),SL / 1 Bo,SL cho 5 Bo,SL nên đặt mua (Dự phòng),Mã / Từ khóa Thế Giới IC,Đơn giá ước tính (VND),Thành tiền ước tính (VND),Link mua Thế Giới IC,Ghi chú ứng dụng
+1,D1,Diode Schottky SS34 (3A / 40V),SMA (DO-214AC),1,5,8,SS34 (DO-214AC),"1,200","9,600",https://www.thegioiic.com/tim-kiem?q=SS34+SMA,Chống cắm ngược cực nguồn 12V IN
+2,C1,Tụ hóa nhôm 220uF 25V (hoặc 35V),"Radial D8mm, P3.5mm (THT)",1,5,6,220uF 25V (8x12mm),"1,000","6,000",https://www.thegioiic.com/tim-kiem?q=tu+hoa+220uF+25V,"Lọc nguồn 12V chính, đường kính D=8mm"
+3,"C2, C3",Tụ gốm 100nF (0.1uF / 104) 50V,SMD 0805,2,10,20,IC262,250,"5,000",https://www.thegioiic.com/tu-gom-smd-0805-100nf-50v-10-samsung,"C2 lọc nguồn 12V, C3 lọc rung debounce chân GPIO4"
+4,U1,Optocoupler PC817 (PC817C / EL817),DIP-4 (THT),1,5,6,IC18785,"3,100","18,600",https://www.thegioiic.com/tim-kiem?q=PC817+DIP-4,Cách ly quang bảo vệ ESP32 khỏi xung 12V
+5,R1,Điện trở 2.2k Ohm (2K2) 5%,SMD 0805,1,5,15,Điện trở 0805 2.2k,150,"2,250",https://www.thegioiic.com/tim-kiem?q=dien+tro+0805+2.2k,Hạn dòng cho LED PWR Đỏ từ nguồn 12V
+6,R2,Điện trở 1k Ohm (1K) 5%,SMD 0805,1,5,15,Điện trở 0805 1k,150,"2,250",https://www.thegioiic.com/tim-kiem?q=dien+tro+0805+1k,Hạn dòng cho LED phát PC817 & LED COIN Xanh
+7,R3,Điện trở 10k Ohm (10K) 5%,SMD 0805,1,5,15,Điện trở 0805 10k,150,"2,250",https://www.thegioiic.com/tim-kiem?q=dien+tro+0805+10k,Điện trở kéo lên (Pull-up) 3.3V cho chân GPIO4
+8,LED1,LED Đỏ (Red) SMD,SMD 0805,1,5,10,20000,500,"5,000",https://www.thegioiic.com/tim-kiem?q=LED+0805+do,Báo nguồn 12V chính (PWR)
+9,LED2,LED Xanh Lá (Green) SMD,SMD 0805,1,5,10,IC19471 / 20007,500,"5,000",https://www.thegioiic.com/tim-kiem?q=LED+0805+xanh+la,Báo xung khi khách nhét xu (COIN)
+10,J1,Terminal Block 2P 5.08mm (KF301-2P),Pitch 5.08mm (THT),1,5,6,IC7864,"2,000","12,000",https://www.thegioiic.com/dau-noi-day-kf301-2-v-5-08mm-xuyen-lo,Cổng cấp nguồn 12V DC dạng ốc siết
+11,J2,Đầu Header XH2.54 4P thẳng (Đực),"XH-4A, Pitch 2.54mm (THT)",1,5,6,IC2012,"1,000","6,000",https://www.thegioiic.com/dau-xh2-54mm-4-chan-thang-xuyen-lo,Cắm cáp kết nối trực tiếp bộ nhận xu JY-133A
+12,"J3, J4",Hàng rào cái 1x40P 2.54mm (Chân thẳng),Pitch 2.54mm (THT),2,10,11,Hàng rào cái 1x40 2.54mm,"2,500","27,500",https://www.thegioiic.com/tim-kiem?q=hang+rao+cai+1x40+2.54mm,Mỗi bo cần 2 hàng 22P. Mua thanh 40P cắt/bẻ thành 22P
+13,Phụ kiện,Trụ đồng M3x10mm (Đực-Cái) + Ốc M3,M3 (Lỗ bo 3.2mm),4,20,20,Trụ đồng M3x10,"1,500","30,000",https://www.thegioiic.com/tim-kiem?q=tru+dong+M3x10,4 chân đế bắt ốc cố định bo mạch vào vỏ tủ photobooth
