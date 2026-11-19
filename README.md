@@ -44,7 +44,7 @@
 * **LED2 (Xanh lá - COIN):** Nhấp nháy đồng bộ theo từng xung khi khách bỏ xu vào JY-133A.
 
 ### 4. Giao tiếp với ESP32-S3 DevKit
-* **Chân GPIO4 (J3 Pin 4):** Nhận xung logic 3.3V (Mặc định mức HIGH nhờ trở kéo 10k R3; khi có xung xu, PC817 dẫn kéo GPIO4 xuống mức LOW).
+* **Chân GPIO5 (J3 Pin 5):** Nhận xung logic 3.3V (Mặc định mức HIGH nhờ trở kéo 10k R3; khi có xung xu, PC817 dẫn kéo GPIO5 xuống mức LOW). Khớp hoàn toàn với firmware config `COIN_GPIO = 5`.
 * **Tụ lọc C3 (100nF):** Lọc rung phần cứng (hardware debouncing) giúp ESP32 đếm xung chính xác 100%, không bị xung ảo do nhiễu EMI.
 * **Cổng USB-C (TOP):** Hướng lên cạnh trên bo mạch, cắm cáp USB về Mac mini chạy app Photobooth.
 
@@ -60,7 +60,7 @@
 | 4 | **C2, C3** | 100nF (0.1µF) / 50V | C_0805_2012Metric | Tụ gốm lọc nhiễu SMD |
 | 5 | **R1** | 2.2kΩ (1/8W, 5%) | R_0805_2012Metric | Trở hạn dòng LED PWR |
 | 6 | **R2** | 1.0kΩ (1/4W, 5%) | R_0805_2012Metric | Trở hạn dòng LED COIN & Opto |
-| 7 | **R3** | 10kΩ (1/8W, 5%) | R_0805_2012Metric | Trở kéo 3.3V GPIO4 |
+| 7 | **R3** | 10kΩ (1/8W, 5%) | R_0805_2012Metric | Trở kéo 3.3V GPIO5 |
 | 8 | **LED1** | LED Đỏ (Red) | LED_0805_2012Metric | Báo nguồn |
 | 9 | **LED2** | LED Xanh lá (Green) | LED_0805_2012Metric | Báo xung xu |
 | 10 | **J1** | KF301-2P (Pitch 5.08mm) | MKDS-1,5-2-5.08 | Terminal vặn ốc nguồn 12V |

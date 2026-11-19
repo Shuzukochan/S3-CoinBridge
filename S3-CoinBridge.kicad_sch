@@ -4321,7 +4321,7 @@
 		)
 		(uuid "e2197bda-9ea4-41d8-a2a6-40a521561a35")
 	)
-	(label "ESP32_GPIO4"
+	(label "ESP32_GPIO5"
 		(at 144.78 73.66 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4365,15 +4365,8 @@
 		)
 		(uuid "679d105a-82c5-4635-ba7c-11bd14c09d7e")
 	)
-	(label "ESP32_GPIO4"
-		(at 198.12 78.74 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
+	(no_connect
+		(at 198.12 78.74)
 		(uuid "6979db33-f9ac-4610-a9b5-8275807b776f")
 	)
 	(label "GND"
@@ -4410,8 +4403,15 @@
 		(at 198.12 76.2)
 		(uuid "29cc76f0-015d-4840-acce-e8aaacb186e3")
 	)
-	(no_connect
-		(at 198.12 81.28)
+	(label "ESP32_GPIO5"
+		(at 198.12 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
 		(uuid "13c24ad6-2721-429c-9789-4eeffa453037")
 	)
 	(no_connect
